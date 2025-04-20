@@ -35,7 +35,7 @@ def a_star(graph, start, end, coords):
                 heapq.heappush(open_heap, (f_score[neighbor], neighbor))
     return []
 
-# Contoh penggunaan
+
 kota = {"A": (0, 0), "B": (2, 1), "C": (4, 2), "D": (5, 5), "E": (1, 4)}
 jalan = {"A": ["B", "E"], "B": ["A", "C"], "C": ["B", "D"], "D": ["C"], "E": ["A", "D"]}
 
